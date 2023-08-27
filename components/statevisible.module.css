@@ -1,0 +1,34 @@
+.aggregateBlueMetal,
+.div,
+.mm {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  height: 18px;
+  mix-blend-mode: normal;
+}
+.div,
+.mm {
+  text-align: center;
+  height: 18.56px;
+}
+.div {
+  text-align: right;
+}
+.statevisible {
+  position: relative;
+  background-color: var(--color-whitesmoke-300);
+  width: 673px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

@@ -1,0 +1,68 @@
+.frameChild,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+}
+.groupChild {
+  background-color: var(--color-white);
+  box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-silver-200);
+  box-sizing: border-box;
+  width: 1139px;
+  height: 635.21px;
+}
+.frameChild {
+  width: 491px;
+  height: 647px;
+  mix-blend-mode: normal;
+}
+.contactUs {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.saySomethingTo {
+  position: absolute;
+  top: 81px;
+  left: 40px;
+  font-size: var(--font-size-mini);
+  color: var(--color-silver-100);
+}
+.vectorParent {
+  position: absolute;
+  top: 9.52px;
+  left: 9.52px;
+  width: 467.6px;
+  height: 616.16px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1139px;
+  height: 635.21px;
+}
+.button,
+.content {
+  position: absolute;
+  top: 367.6px;
+  left: 587.59px;
+}
+.content {
+  top: 225px;
+  left: 271px;
+  width: 1139px;
+  height: 635.21px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}

@@ -1,0 +1,236 @@
+.title {
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 518px;
+}
+.heading,
+.title1 {
+  align-self: stretch;
+}
+.title1 {
+  position: relative;
+  font-size: var(--text-base-regular-size);
+  line-height: 162.02%;
+  color: var(--color-gray-300);
+}
+.heading {
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.checkboxsingledefault,
+.text {
+  position: relative;
+}
+.text {
+  line-height: 20px;
+  display: inline-block;
+  width: 394px;
+  flex-shrink: 0;
+}
+.check {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.textButton {
+  position: relative;
+  line-height: 14px;
+  font-weight: 600;
+}
+.chevronRightIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  display: none;
+}
+.btnlarge,
+.elements {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.elements {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.btnlarge {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-400);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-5xl);
+}
+.btnsolidlarge {
+  display: flex;
+  align-items: flex-start;
+}
+.btnsolidlarge,
+.form,
+.xButton {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.xButton {
+  display: none;
+  align-items: flex-end;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--text-base-regular);
+}
+.form {
+  display: flex;
+  padding: var(--padding-5xl) 0 0;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+}
+.delimiterChild {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  height: 1px;
+}
+.delimiter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 424px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.groupChild,
+.socialChild {
+  position: relative;
+  width: 68px;
+  height: 53.32px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-shadow-sm);
+}
+.appleLogoBlack1Icon {
+  position: absolute;
+  top: 15.05px;
+  left: 23.93px;
+  width: 19.52px;
+  height: 23.21px;
+  overflow: hidden;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-shadow-sm);
+  width: 68px;
+  height: 53.32px;
+}
+.f,
+.groupItem,
+.social1 {
+  position: absolute;
+}
+.f {
+  top: 4.64px;
+  left: 27.05px;
+  display: inline-block;
+  width: 14.68px;
+  height: 44.82px;
+}
+.social1 {
+  top: 42px;
+  left: 0;
+  width: 424px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue-100);
+}
+.social {
+  align-self: stretch;
+  position: relative;
+  height: 95.32px;
+  display: none;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-slategray-200);
+  font-family: var(--text-base-regular);
+}
+.formRegisterdefault {
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.button {
+  cursor: pointer;
+}
+.span {
+  color: var(--color-darkslategray-100);
+}
+.signIn {
+  color: var(--color-gray-400);
+}
+.label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.labelWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray-200);
+}
+.main {
+  align-self: stretch;
+  height: 882px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-31xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

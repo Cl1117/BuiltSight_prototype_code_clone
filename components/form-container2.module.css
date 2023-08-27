@@ -1,0 +1,50 @@
+.leftValue {
+  position: relative;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  width: 32px;
+  flex-shrink: 0;
+}
+.hLine {
+  flex: 1;
+  position: relative;
+  background-color: var(--global-slate-20);
+  height: 1px;
+}
+.horizontalLine {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.chartGrid,
+.hLinesValues {
+  display: flex;
+  flex-direction: column;
+}
+.hLinesValues {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-3xs) 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.chartGrid {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: var(--global-slate-70);
+  font-family: var(--font-public-sans);
+}

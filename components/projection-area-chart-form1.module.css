@@ -1,0 +1,78 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 397px;
+  height: 438px;
+  mix-blend-mode: normal;
+}
+.areaIcon,
+.lineIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.areaIcon {
+  height: 55.78%;
+  width: calc(100% - 48px);
+  top: 30.97%;
+  right: -303px;
+  bottom: 13.25%;
+  left: 351px;
+  opacity: 0.2;
+}
+.lineIcon {
+  height: 27.05%;
+  width: calc(100% - 51px);
+  top: 31.9%;
+  right: -297.5px;
+  bottom: 41.04%;
+  left: 348.5px;
+}
+.barChartGrid {
+  top: 121px;
+  width: 351px;
+  height: 299px;
+}
+.barChartGrid,
+.materialName,
+.tittle {
+  position: absolute;
+  left: 24px;
+}
+.materialName {
+  top: 71px;
+  display: none;
+  width: 209px;
+  height: 18px;
+  mix-blend-mode: normal;
+}
+.tittle {
+  top: 23px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 341px;
+  height: 31px;
+}
+.projectionAreaChart {
+  position: absolute;
+  top: 520px;
+  left: 1018px;
+  width: 397px;
+  height: 438px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

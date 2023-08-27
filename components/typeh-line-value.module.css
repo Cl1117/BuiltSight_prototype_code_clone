@@ -1,0 +1,27 @@
+.leftValue {
+  position: relative;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  width: 32px;
+  flex-shrink: 0;
+}
+.hLine {
+  flex: 1;
+  position: relative;
+  background-color: var(--global-slate-20);
+  height: 1px;
+}
+.typehLineValue {
+  position: relative;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: var(--global-slate-70);
+  font-family: var(--font-public-sans);
+}

@@ -1,0 +1,39 @@
+.title,
+.title1 {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.title1 {
+  font-size: var(--text-base-regular-size);
+  line-height: 162.02%;
+  font-family: var(--text-base-regular);
+  color: var(--color-gray-300);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button {
+  cursor: pointer;
+}
+.formLogindefault {
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

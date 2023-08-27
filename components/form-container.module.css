@@ -1,0 +1,104 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 397px;
+  height: 355px;
+  mix-blend-mode: normal;
+}
+.historySectionChild,
+.historySectionItem {
+  position: absolute;
+  top: 65px;
+  left: 33px;
+  width: 341px;
+  height: 257px;
+}
+.historySectionItem {
+  left: 33.02px;
+  background-color: var(--color-darkslateblue-200);
+  width: 341.21px;
+  height: 44px;
+}
+.aggregateBlueMetal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 209px;
+  height: 18px;
+  mix-blend-mode: normal;
+}
+.div,
+.histiryRow {
+  position: absolute;
+  height: 19px;
+}
+.div {
+  top: 0;
+  left: 236px;
+  text-align: right;
+  display: inline-block;
+  width: 88px;
+  mix-blend-mode: normal;
+}
+.histiryRow {
+  top: 121px;
+  left: 43px;
+  width: 324px;
+}
+.materialName,
+.priceChange {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 142px;
+  height: 23px;
+  mix-blend-mode: normal;
+}
+.priceChange {
+  left: 170px;
+  text-align: right;
+  width: 154px;
+  height: 17px;
+}
+.tableHead {
+  position: absolute;
+  top: 76px;
+  left: 43px;
+  width: 324px;
+  height: 23px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.tittle {
+  position: absolute;
+  top: 33px;
+  left: 33px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 341px;
+  height: 31px;
+}
+.historySection {
+  position: absolute;
+  top: 143px;
+  left: 1018px;
+  width: 397px;
+  height: 355px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-rubik);
+}

@@ -1,0 +1,9 @@
+.property1emailOrPhoneNumb {
+  position: relative;
+  width: 650px;
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

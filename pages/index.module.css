@@ -1,0 +1,124 @@
+.rectangleCopy103 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+}
+.builtsight2023 {
+  top: 30px;
+  line-height: 30px;
+  display: inline-block;
+  width: 1440px;
+  height: 42px;
+}
+.builtsight2023,
+.footer,
+.sidenavBg {
+  position: absolute;
+  left: 0;
+}
+.footer {
+  top: 973px;
+  width: 1440px;
+  height: 90px;
+  overflow: hidden;
+}
+.sidenavBg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-darkslateblue-200);
+}
+.welcomeToBuiltsight {
+  top: 441px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  width: 718px;
+}
+.aside,
+.welcomeToBuiltsight,
+.yourGatewayTo {
+  position: absolute;
+  left: 0;
+}
+.yourGatewayTo {
+  top: 498px;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 718px;
+  height: 32px;
+}
+.aside {
+  height: 91.53%;
+  width: 49.86%;
+  top: 0;
+  right: 50.14%;
+  bottom: 8.47%;
+  font-size: var(--font-size-29xl);
+}
+.span {
+  color: var(--color-darkslategray-100);
+}
+.signUp {
+  color: var(--color-gray-400);
+}
+.label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.labelWrapper {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: inherit;
+}
+.container,
+.main {
+  height: 882px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  align-self: stretch;
+  padding: var(--padding-31xl) 0;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-31xl);
+}
+.container {
+  position: absolute;
+  top: 34px;
+  left: 743px;
+  width: 648px;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray-200);
+}
+.desktoplogIn {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1063px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}

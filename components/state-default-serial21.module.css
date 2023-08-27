@@ -1,0 +1,70 @@
+.label {
+  font-weight: 500;
+}
+.label,
+.textValue {
+  position: relative;
+  letter-spacing: 0.4px;
+}
+.cursorChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-cornflowerblue);
+}
+.cursor {
+  position: relative;
+  width: 1.5px;
+  height: 18px;
+}
+.textFrame {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.emailIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.placeholder {
+  position: relative;
+  letter-spacing: 0.4px;
+  color: var(--color-gray-500);
+}
+.statedefaultSerial2,
+.textField {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.textField {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+  width: 328px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-base);
+  align-items: center;
+}
+.statedefaultSerial2 {
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  font-family: var(--font-poppins);
+}

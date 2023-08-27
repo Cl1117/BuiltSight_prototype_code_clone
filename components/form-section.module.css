@@ -1,0 +1,58 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 729px;
+  height: 438px;
+  mix-blend-mode: normal;
+}
+.lineChartIcon {
+  position: absolute;
+  height: calc(100% - 185px);
+  width: calc(100% - 97px);
+  top: 649px;
+  right: -245px;
+  bottom: -464px;
+  left: 342px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.materialName,
+.tittle {
+  position: absolute;
+  left: 22px;
+}
+.materialName {
+  top: 70px;
+  display: none;
+  width: 475px;
+  height: 18px;
+  mix-blend-mode: normal;
+}
+.tittle {
+  top: 31px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 672px;
+  height: 31px;
+}
+.lineChartSection {
+  position: absolute;
+  top: 520px;
+  left: 272px;
+  width: 729px;
+  height: 438px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}

@@ -1,0 +1,20 @@
+.jan {
+  position: relative;
+  line-height: 12px;
+  display: inline-block;
+  width: 60px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.typetimeIntervalNumberOf {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--night-80);
+  font-family: var(--font-public-sans);
+}

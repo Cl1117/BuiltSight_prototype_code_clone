@@ -1,0 +1,87 @@
+.bxsphoneCallIcon,
+.carbonlocationFilledIcon {
+  position: absolute;
+  height: 13.95%;
+  width: 7.12%;
+  top: 86.05%;
+  right: 92.88%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bxsphoneCallIcon {
+  height: 98.05%;
+  width: 7.11%;
+  top: 0;
+  right: 92.89%;
+  bottom: 1.95%;
+}
+.span {
+  text-decoration: underline;
+}
+.a {
+  color: inherit;
+}
+.div {
+  position: absolute;
+  width: 85.34%;
+  top: 1.95%;
+  left: 14.66%;
+  display: inline-block;
+}
+.bxsphoneCallParent {
+  position: absolute;
+  height: 14.23%;
+  width: 100.14%;
+  top: 0;
+  right: -0.14%;
+  bottom: 85.77%;
+  left: 0;
+  color: inherit;
+}
+.icsharpEmailIcon {
+  position: absolute;
+  height: 100%;
+  width: 10.67%;
+  top: 0;
+  right: 89.33%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.builtsightgmailcom {
+  position: absolute;
+  top: 0;
+  left: 21.78%;
+}
+.icsharpEmailParent {
+  position: absolute;
+  height: 13.95%;
+  width: 66.77%;
+  top: 43.02%;
+  right: 33.23%;
+  bottom: 43.02%;
+  left: 0;
+}
+.parramattaNsw2116 {
+  position: absolute;
+  width: 85.46%;
+  top: 86.05%;
+  left: 14.54%;
+  display: inline-block;
+}
+.carbonlocationFilledParent {
+  position: absolute;
+  top: 226px;
+  left: 40px;
+  width: 337px;
+  height: 172px;
+  text-align: left;
+  font-size: var(--text-base-regular-size);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

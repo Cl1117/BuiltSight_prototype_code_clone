@@ -1,0 +1,16 @@
+.vLine {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--global-slate-20);
+  width: 1px;
+}
+.typevLine {
+  position: relative;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+}

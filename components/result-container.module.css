@@ -1,0 +1,75 @@
+.bg,
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 729px;
+  height: 174px;
+  mix-blend-mode: normal;
+}
+.bg1 {
+  background-color: var(--color-darkslateblue-200);
+  width: 673.41px;
+  height: 34px;
+}
+.materialName,
+.priceChangeIn,
+.unit {
+  position: absolute;
+  top: 9px;
+  left: 15.97px;
+  font-weight: 500;
+  display: inline-block;
+  width: 142px;
+  height: 20px;
+  mix-blend-mode: normal;
+}
+.priceChangeIn,
+.unit {
+  left: 320.97px;
+  width: 70px;
+}
+.priceChangeIn {
+  left: 529.97px;
+  width: 133px;
+  height: 15px;
+}
+.tableHead,
+.tittle {
+  position: absolute;
+  top: 61px;
+  left: 27.03px;
+  width: 673.41px;
+  height: 34px;
+}
+.tittle {
+  top: 30px;
+  left: 28px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  width: 672px;
+  height: 31px;
+}
+.resultSection {
+  position: absolute;
+  top: 324px;
+  left: 272px;
+  width: 729px;
+  height: 174px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-rubik);
+}

@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import StateDefaultSerial2 from "./state-default-serial2";
+import StateDefaultSerial21 from "./state-default-serial2";
 import styles from "./property1email-or-phone-numb1.module.css";
 const Property1emailOrPhoneNumb1 = ({
   property1emailOrPhoneNumbPosition,
@@ -31,7 +31,7 @@ const Property1emailOrPhoneNumb1 = ({
     property1emailOrPhoneNumbHeight,
   ]);
 
-  const textFieldStyle = useMemo(() => {
+  const textField1Style = useMemo(() => {
     return {
       borderRadius: textFieldBorderRadius,
       backgroundColor: textFieldBackgroundColor,
@@ -68,7 +68,7 @@ const Property1emailOrPhoneNumb1 = ({
       className={styles.property1emailOrPhoneNumb}
       style={property1emailOrPhoneNumb1Style}
     >
-      <StateDefaultSerial2
+      <StateDefaultSerial21
         label="Email or phone number"
         email="/-user-rounded1.svg"
         placeholder="Type your e-mail or phone number"

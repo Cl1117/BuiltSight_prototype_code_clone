@@ -78,7 +78,7 @@ const NightModeForm = () => {
           src="/icons--arrow--ios--right.svg"
         />
       </div>
-      <UserCardForm dimensionCode="/photo1.svg" />
+      <UserCardForm dimensionCode="/photo5.svg" />
     </div>
   );
 };

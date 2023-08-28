@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import styles from "./state-default-serial21.module.css";
-const StateDefaultSerial21 = ({
+const StateDefaultSerial2 = ({
   label = "Label",
   email,
   placeholder = "Placeholder",
@@ -26,14 +26,14 @@ const StateDefaultSerial21 = ({
   placeholderColor,
   placeholderFontWeight,
 }) => {
-  const stateDefaultSerial21Style = useMemo(() => {
+  const stateDefaultSerial2Style = useMemo(() => {
     return {
       position: stateDefaultSerial2Position,
       alignSelf: stateDefaultSerial2AlignSelf,
     };
   }, [stateDefaultSerial2Position, stateDefaultSerial2AlignSelf]);
 
-  const textField1Style = useMemo(() => {
+  const textFieldStyle = useMemo(() => {
     return {
       backgroundColor: textFieldBackgroundColor,
       width: textFieldWidth,
@@ -69,7 +69,7 @@ const StateDefaultSerial21 = ({
     textFieldGap,
   ]);
 
-  const placeholder1Style = useMemo(() => {
+  const placeholderStyle = useMemo(() => {
     return {
       color: placeholderColor,
       fontWeight: placeholderFontWeight,
@@ -79,10 +79,10 @@ const StateDefaultSerial21 = ({
   return (
     <div
       className={styles.statedefaultSerial2}
-      style={stateDefaultSerial21Style}
+      style={stateDefaultSerial2Style}
     >
       <div className={styles.label}>{label}</div>
-      <div className={styles.textField} style={textField1Style}>
+      <div className={styles.textField} style={textFieldStyle}>
         {!textFrame && (
           <div className={styles.textFrame}>
             <div className={styles.textValue}>First Text Value</div>
@@ -94,7 +94,7 @@ const StateDefaultSerial21 = ({
         {showEmailIcon && (
           <img className={styles.emailIcon} alt="" src={email} />
         )}
-        <div className={styles.placeholder} style={placeholder1Style}>
+        <div className={styles.placeholder} style={placeholderStyle}>
           {placeholder}
         </div>
       </div>
@@ -102,4 +102,4 @@ const StateDefaultSerial21 = ({
   );
 };
 
-export default StateDefaultSerial21;
+export default StateDefaultSerial2;

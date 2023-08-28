@@ -7,9 +7,9 @@ import {
   Checkbox,
   Button,
 } from "@mui/material";
-import Property1emailOrPhoneNumb from "./property1email-or-phone-numb";
+import Property1emailOrPhoneNumb2 from "./property1email-or-phone-numb";
 import Property1emailOrPhoneNumb1 from "./property1email-or-phone-numb1";
-import Property1emailOrPhoneNumb2 from "./property1email-or-phone-numb2";
+import Property1emailOrPhoneNumb from "./property1email-or-phone-numb2";
 import { useRouter } from "next/router";
 import SocialFormContainer from "./social-form-container";
 import styles from "./account-form-container.module.css";
@@ -32,7 +32,7 @@ const AccountFormContainer = () => {
           <div className={styles.title1}>It’s free and easy</div>
         </div>
         <div className={styles.form}>
-          <Property1emailOrPhoneNumb
+          <Property1emailOrPhoneNumb2
             property1emailOrPhoneNumbPosition="unset"
             property1emailOrPhoneNumbWidth="424px"
             textFieldBorderRadius="unset"
@@ -67,7 +67,7 @@ const AccountFormContainer = () => {
             textFieldJustifyContent="unset"
             textFieldGap="unset"
           />
-          <Property1emailOrPhoneNumb2
+          <Property1emailOrPhoneNumb
             property1emailOrPhoneNumbPosition="unset"
             property1emailOrPhoneNumbWidth="424px"
             textFieldBorderRadius="unset"

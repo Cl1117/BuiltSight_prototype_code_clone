@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import StateDefaultSerial2 from "./state-default-serial2";
+import StateDefaultSerial21 from "./state-default-serial2";
 import styles from "./property1email-or-phone-numb2.module.css";
-const Property1emailOrPhoneNumb2 = ({
+const Property1emailOrPhoneNumb = ({
   property1emailOrPhoneNumbPosition,
   property1emailOrPhoneNumbWidth,
   textFieldBorderRadius,
@@ -18,14 +18,14 @@ const Property1emailOrPhoneNumb2 = ({
   textFieldJustifyContent,
   textFieldGap,
 }) => {
-  const property1emailOrPhoneNumb2Style = useMemo(() => {
+  const property1emailOrPhoneNumbStyle = useMemo(() => {
     return {
       position: property1emailOrPhoneNumbPosition,
       width: property1emailOrPhoneNumbWidth,
     };
   }, [property1emailOrPhoneNumbPosition, property1emailOrPhoneNumbWidth]);
 
-  const textFieldStyle = useMemo(() => {
+  const textField1Style = useMemo(() => {
     return {
       borderRadius: textFieldBorderRadius,
       backgroundColor: textFieldBackgroundColor,
@@ -60,9 +60,9 @@ const Property1emailOrPhoneNumb2 = ({
   return (
     <div
       className={styles.property1emailOrPhoneNumb}
-      style={property1emailOrPhoneNumb2Style}
+      style={property1emailOrPhoneNumbStyle}
     >
-      <StateDefaultSerial2
+      <StateDefaultSerial21
         label="Password"
         email="/-user-rounded1.svg"
         placeholder="Type your password"
@@ -95,4 +95,4 @@ const Property1emailOrPhoneNumb2 = ({
   );
 };
 
-export default Property1emailOrPhoneNumb2;
+export default Property1emailOrPhoneNumb;

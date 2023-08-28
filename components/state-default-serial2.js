@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import styles from "./state-default-serial2.module.css";
-const StateDefaultSerial2 = ({
+const StateDefaultSerial21 = ({
   label = "Label",
   email,
   placeholder = "Placeholder",
@@ -29,14 +29,14 @@ const StateDefaultSerial2 = ({
   placeholderLineHeight,
   placeholderFontWeight,
 }) => {
-  const stateDefaultSerial2Style = useMemo(() => {
+  const stateDefaultSerial21Style = useMemo(() => {
     return {
       position: stateDefaultSerial2Position,
       alignSelf: stateDefaultSerial2AlignSelf,
     };
   }, [stateDefaultSerial2Position, stateDefaultSerial2AlignSelf]);
 
-  const textFieldStyle = useMemo(() => {
+  const textField1Style = useMemo(() => {
     return {
       backgroundColor: textFieldBackgroundColor,
       width: textFieldWidth,
@@ -72,7 +72,7 @@ const StateDefaultSerial2 = ({
     textFieldGap,
   ]);
 
-  const placeholderStyle = useMemo(() => {
+  const placeholder1Style = useMemo(() => {
     return {
       letterSpacing: placeholderLetterSpacing,
       fontFamily: placeholderFontFamily,
@@ -91,10 +91,10 @@ const StateDefaultSerial2 = ({
   return (
     <div
       className={styles.statedefaultSerial2}
-      style={stateDefaultSerial2Style}
+      style={stateDefaultSerial21Style}
     >
       <div className={styles.label}>{label}</div>
-      <div className={styles.textField} style={textFieldStyle}>
+      <div className={styles.textField} style={textField1Style}>
         {!textFrame && (
           <div className={styles.textFrame}>
             <div className={styles.textValue}>First Text Value</div>
@@ -106,7 +106,7 @@ const StateDefaultSerial2 = ({
         {showEmailIcon && (
           <img className={styles.emailIcon} alt="" src={email} />
         )}
-        <div className={styles.placeholder} style={placeholderStyle}>
+        <div className={styles.placeholder} style={placeholder1Style}>
           {placeholder}
         </div>
       </div>
@@ -114,4 +114,4 @@ const StateDefaultSerial2 = ({
   );
 };
 
-export default StateDefaultSerial2;
+export default StateDefaultSerial21;

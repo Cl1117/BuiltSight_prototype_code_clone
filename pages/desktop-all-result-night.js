@@ -143,7 +143,7 @@ const DesktopAllResultNight = () => {
           imageDimensions="/icons--settings--setting-21.svg"
           imageCodeImageUrl="/icons--arrow--ios--right1.svg"
           imageCodeDimensions="/icons--arrow--ios--right1.svg"
-          imageCodeImageUrl2="/photo5.svg"
+          imageCodeImageUrl2="/photo1.svg"
           onNavButtonLogOutClick={onNavButtonLogOutClick}
           onNavButtonAboutContainerClick={onNavButtonAboutContainerClick}
           onNavButtonContactContainerClick={onNavButtonContactContainerClick}

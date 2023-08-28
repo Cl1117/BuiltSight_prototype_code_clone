@@ -105,7 +105,7 @@ const DesktopAboutUs = () => {
               src="/icons--arrow--ios--right.svg"
             />
           </div>
-          <UserCardForm dimensionCode="/photo2.svg" />
+          <UserCardForm dimensionCode="/photo4.svg" />
         </div>
       </div>
     </div>

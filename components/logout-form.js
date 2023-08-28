@@ -87,7 +87,7 @@ const LogoutForm = () => {
       </nav>
       <nav className={styles.navButtonDashboard} id="dashboard">
         <div className={styles.contact}>dashboard</div>
-        <img className={styles.colorIcon1} alt="" src="/color1.svg" />
+        <img className={styles.colorIcon1} alt="" src="/color2.svg" />
         <img
           className={styles.iconsArrowIosRight2}
           alt=""

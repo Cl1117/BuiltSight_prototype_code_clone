@@ -158,7 +158,7 @@ const DesktopDashboardNight = () => {
           imageDimensions="/icons--settings--setting-2.svg"
           imageCodeImageUrl="/icons--arrow--ios--right.svg"
           imageCodeDimensions="/icons--arrow--ios--right.svg"
-          imageCodeImageUrl2="/photo4.svg"
+          imageCodeImageUrl2="/photo2.svg"
           propCursor="unset"
           onNavButtonLogOutClick={onNavButtonLogOutClick}
           onNavButtonAboutContainerClick={onNavButtonAboutContainerClick}

@@ -83,7 +83,7 @@ const FormContainer1 = ({
           src={imageCodeDimensions}
         />
       </div>
-      <UserCardForm dimensionCode="/photo5.svg" />
+      <UserCardForm dimensionCode="/photo1.svg" />
     </div>
   );
 };

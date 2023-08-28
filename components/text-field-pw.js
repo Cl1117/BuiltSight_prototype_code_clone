@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import StateDefaultSerial21 from "./state-default-serial21";
+import StateDefaultSerial2 from "./state-default-serial21";
 import styles from "./text-field-pw.module.css";
 const TextFieldPw = ({
   textFieldPwPosition,
@@ -25,7 +25,7 @@ const TextFieldPw = ({
     };
   }, [textFieldPwPosition, textFieldPwWidth]);
 
-  const textField1Style = useMemo(() => {
+  const textFieldStyle = useMemo(() => {
     return {
       borderRadius: textFieldBorderRadius,
       backgroundColor: textFieldBackgroundColor,
@@ -59,7 +59,7 @@ const TextFieldPw = ({
 
   return (
     <div className={styles.textFieldPw} style={textFieldPwStyle}>
-      <StateDefaultSerial21
+      <StateDefaultSerial2
         label="Password"
         email="/email1.svg"
         placeholder="Type your password"
